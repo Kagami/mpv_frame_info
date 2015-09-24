@@ -14,7 +14,7 @@ The script is binding itself to `i` (however, not overriding your own bindings)
 and can therefore be invoked with this key. You can create different
 bindings by adding `<yourkey> script_binding frame_info` to `input.conf`.
 
-Press `i` to toggle info displaying, press `Ctrl+s` to make the screenshot with info.
+Press `i` to toggle info displaying, press `Ctrl+s` to make the screenshot with info. NOTE: script doesn't work correctly with OSC, you need to disable it.
 
 ## License
 
