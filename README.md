@@ -1,11 +1,9 @@
-# mpv_frame_info
-
-Simple Lua script for mpv to display frame info, similar to ffdshow's OSD.
+`frame_info.lua` is a simple Lua script for mpv to display frame info, similar to ffdshow's OSD.
 Might be useful in case of e.g. screenshot comparisions.
 
 ![](https://raw.githubusercontent.com/Kagami/mpv_frame_info/assets/example.png)
 
-## Usage
+#### Usage
 
 Put `frame_info.lua` to `~/.config/mpv/scripts/` or `~/.mpv/scripts/` directory
 to autoload the script or load it manually with `--script=<path>`.
@@ -16,7 +14,7 @@ bindings by adding `<yourkey> script_binding frame_info` to `input.conf`.
 
 Press `i` to toggle info displaying, press `Ctrl+s` to make the screenshot with info. NOTE: script doesn't work correctly with OSC, you need to disable it.
 
-## License
+#### License
 
 mpv_frame_info - Show frame info with mpv
 
