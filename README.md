@@ -3,7 +3,7 @@
 Simple Lua script for mpv to display frame info, similar to ffdshow's OSD.
 Might be useful in case of e.g. screenshot comparisions.
 
-![](https://raw.githubusercontent.com/Kagami/mpv_frame_info/master/example.png)
+![](https://raw.githubusercontent.com/Kagami/mpv_frame_info/assets/example.png)
 
 ## Usage
 
