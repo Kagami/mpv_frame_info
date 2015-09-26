@@ -19,6 +19,8 @@ function get_formatting()
 end
 
 function timestamp(duration)
+    -- mpv may return nil before exiting.
+    if not duration then return "" end
     local hours = duration / 3600
     local minutes = duration % 3600 / 60
     local seconds = duration % 60
