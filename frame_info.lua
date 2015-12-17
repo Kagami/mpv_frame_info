@@ -24,7 +24,7 @@ function timestamp(duration)
     local hours = duration / 3600
     local minutes = duration % 3600 / 60
     local seconds = duration % 60
-    return string.format("%02d:%02d:%02.03f", hours, minutes, seconds)
+    return string.format("%02d:%02d:%06.03f", hours, minutes, seconds)
 end
 
 function get_info()
