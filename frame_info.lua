@@ -59,4 +59,4 @@ function toggle_info()
     info_active = not info_active
 end
 
-mp.add_key_binding("i", mp.get_script_name(), toggle_info)
+mp.add_key_binding("TAB", mp.get_script_name(), toggle_info)
